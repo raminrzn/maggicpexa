@@ -1,0 +1,20 @@
+Package: maggicpexa
+Title: MAGGIC Heart Failure Risk Score - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("Stuart J.", "Pocock", role = "ctb",
+           comment = "First author of the MAGGIC risk score"))
+Description: Implements the published MAGGIC integer risk score for chronic
+    heart failure and its lookup table of 1- and 3-year mortality (Pocock et
+    al., European Heart Journal 2013 <doi:10.1093/eurheartj/ehs337>): the
+    13-variable point chart in Figure 2 and the probabilities in Table 4.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/maggicpexa
